@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "minimum": {"sillytavern": null, "tavernHelper": null},
+  "requirements": [
+    {"id":"preset-read","owner":"tavern-helper","symbol":"TavernHelper.getPreset","required":true,"fallback":null},
+    {"id":"preset-update","owner":"tavern-helper","symbol":"TavernHelper.updatePresetWith","required":true,"fallback":null},
+    {"id":"preset-name","owner":"tavern-helper","symbol":"TavernHelper.getLoadedPresetName","required":true,"fallback":null},
+    {"id":"config-read","owner":"tavern-helper","symbol":"TavernHelper.getVariables","required":true,"fallback":null},
+    {"id":"config-write","owner":"tavern-helper","symbol":"TavernHelper.updateVariablesWith","required":true,"fallback":null}
+  ],
+  "runtimeAcceptance":"pending; declaration baseline 4.8.19, installed versions unknown"
+}

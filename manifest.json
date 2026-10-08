@@ -1,0 +1,12 @@
+{
+  "display_name": "🩸灰烬之桥预设快捷控制台",
+  "loading_order": 100,
+  "js": "index.js",
+  "author": "Ashen Bridge Console",
+  "version": "3.1.0",
+  "description": "主页面预设分组控制台；功能依赖已安装的 TavernHelper 预设 API。",
+  "hooks": {
+    "clean": "clean",
+    "disable": "disable"
+  }
+}
